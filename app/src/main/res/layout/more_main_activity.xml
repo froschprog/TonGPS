@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <RelativeLayout
+        android:id="@+id/relativLayoutMore"
+        android:layout_width="0dp"
+        android:layout_height="50sp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/ButtonBackMoreMain"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_alignParentStart="true"
+            android:background="?android:selectableItemBackground"
+            app:srcCompat="@drawable/ic_back_foreground"
+            app:tint="@color/texte"/>
+
+        <ImageButton
+            android:id="@+id/ButtonHelp"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_alignParentEnd="true"
+            android:background="?android:selectableItemBackground"
+            app:srcCompat="@drawable/help"
+            app:tint="@color/texte"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/relativLayoutMore2"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/relativLayoutMore">
+
+        <ImageView
+            android:id="@+id/imageViewIcon"
+            android:layout_width="0dp"
+            android:layout_height="200sp"
+            android:layout_weight="0.50"
+            app:srcCompat="@mipmap/ic_tongps_round" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.50"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textviewAppTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/app_name"
+                android:textColor="@color/texte"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textviewApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0sp"
+                android:gravity="center_horizontal"
+                android:text="@string/app_presentation"
+                android:textColor="@color/texte"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textviewMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0sp"
+                android:gravity="center_horizontal"
+                android:text="@string/mail"
+                android:clickable="true"
+                android:autoLink="email"
+                android:textColor="@color/texte"
+                android:textColorLink="@color/texte"
+                android:textSize="14sp"
+                android:focusable="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutLangue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativLayoutMore2">
+
+        <Switch
+            android:id="@+id/switchNotif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginStart="32sp"
+            android:checked="true"
+            android:text="@string/notifications"
+            android:textColor="@color/texte"
+            android:textSize="20sp"
+            android:theme="@style/SwitchTheme"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textViewLangueActuelle"
+                android:layout_width="wrap_content"
+                android:layout_height="25sp"
+                android:gravity="center"
+                android:textColor="@color/texte"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/ButtonChangeLang"
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="40sp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/btn_rectangle_arrondi"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                app:srcCompat="@drawable/ic_forward"
+                android:tint="@color/texte"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textViewExport"
+                android:layout_width="wrap_content"
+                android:layout_height="25sp"
+                android:gravity="center"
+                android:textColor="@color/texte"
+                android:text="@string/export_workouts"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/ButtonExport"
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="40sp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/btn_rectangle_arrondi"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                app:srcCompat="@drawable/ic_forward"
+                android:tint="@color/texte"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textViewImport"
+                android:layout_width="wrap_content"
+                android:layout_height="25sp"
+                android:gravity="center"
+                android:textColor="@color/texte"
+                android:text="@string/import_workouts"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/ButtonImport"
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="40sp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/btn_rectangle_arrondi"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center"
+                app:srcCompat="@drawable/ic_forward"
+                android:tint="@color/texte"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

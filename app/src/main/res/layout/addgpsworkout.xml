@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background_1"/>
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutGps"
+        android:layout_width="0dp"
+        android:layout_height="50sp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewAddGpsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0sp"
+            android:background="@null"
+            android:text="@string/title"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/texte"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <ImageButton
+            android:id="@+id/ButtonBackGps"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_alignParentStart="true"
+            android:background="?android:selectableItemBackground"
+            app:srcCompat="@drawable/ic_back_foreground"
+            app:tint="@color/texte" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+    <!-- GPS -->
+
+    <TextView
+        android:id="@+id/textViewAddGpsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/texte"
+        android:textSize="20sp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- Les buttons en bas de la page -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@id/ButtonSave"
+        android:weightSum="4"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButtonStartGPS"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="@drawable/btn_rectangle_arrondi"
+            android:foreground="?attr/selectableItemBackground"
+            android:theme="@style/ButtonThemeOrange"
+            app:tint="@color/texte"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text="Start"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/ButtonStopGPS"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="@drawable/btn_rectangle_arrondi"
+            android:foreground="?attr/selectableItemBackground"
+            android:theme="@style/ButtonThemeOrange"
+            android:layout_weight="1"
+            app:tint="@color/texte"
+            android:textSize="12sp"
+
+            android:text="Stop"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/ButtonPauseGPS"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:background="@drawable/btn_rectangle_arrondi"
+            android:foreground="?attr/selectableItemBackground"
+            android:theme="@style/ButtonThemeOrange"
+            android:layout_weight="1"
+            app:tint="@color/texte"
+            android:textSize="12sp"
+
+            android:text="Pause"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ButtonSave"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_rectangle_arrondi"
+        android:foreground="?attr/selectableItemBackground"
+        android:theme="@style/ButtonThemeOrange"
+        android:textColor="@color/texte"
+        android:text="@string/savegps"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.0"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

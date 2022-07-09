@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--activity_main-->
+    <string name="title">Hallo %1$s</string>
+    <string name="title2">Letzte Workouts</string>
+    <string name="notask">Keine Workouts gespeichert</string>
+    <string name="app_presentation">Version: %1$s \n\n Ausgabedatum:\n02–2022\n\n© 2021 FroschproG</string>
+    <string name="choose_language">Ändern</string>
+    <string name="Present_Lang">Aktuelle Sprache: %1$s</string>
+    <string name="select_an_icon">Welcher Sport?</string>
+    <string name="enter_event">Bestätigen</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="archive_trainings">Alle Workouts</string>
+    <string name="back">Zurück</string>
+    <string name="deleteevent">Löschen</string>
+    <string name="help">Hilfe</string>
+    <string name="le">am\u0020</string>
+    <string name="power">Leistung: \u0020</string>
+    <string name="minutes">\u0020 Minuten</string>
+    <string name="distance">Entfernung: \u0020</string>
+    <string name="tdp_ch_desc">Erinnerungen</string>
+    <string name="new_workout">Neues Workout</string>
+    <string name="wrongdate">Falsches Format: tag-mon-jahr</string>
+    <string name="date">Datum</string>
+    <string name="duration">Dauer (Min)</string>
+    <string name="distanceHint">Entfernung (km)</string>
+    <string name="or">oder</string>
+    <string name="stattitle">Deine Statistiken</string>
+    <string name="stat_title">%1$s Tage ab dem %2$s</string>
+    <string name="weekof">Woche ab Montag den %1$s</string>
+    <string name="level">, Stufe:\u0020</string>
+    <string name="user_title">%1$s, %2$d cm, %3$d kg\u0020\u0020\u0020 Ändern?</string>
+    <string name="medium">Mittel</string>
+    <string name="lowint">Niedrig</string>
+    <string name="extrem">Extrem</string>
+    <string name="flat">Flach</string>
+    <string name="fastflat">\u00B1 flach</string>
+    <string name="thiswk">Diese Woche</string>
+    <string name="thismonth">Dieser Monat</string>
+    <string name="thisyear">Dieses Jahr</string>
+    <string name="running">Jogging/Walking</string>
+    <string name="ergo">Ergometer</string>
+    <string name="bike">Fahrrad</string>
+    <string name="swim">Schwimmen</string>
+    <string name="weeklystat">Wöchentliche Stats</string>
+    <string name="monthlystat">Monatliche Stats</string>
+    <string name="yearlystat">Jährliche Stats</string>
+    <string name="lastdays">Letzte %1$d Tage</string>
+    <string name="perwk">/Woche</string>
+    <string name="permonth">/Monat</string>
+    <string name="peryear">/Jahr</string>
+    <string name="graphchoicetitle">Welche Daten zeigen?</string>
+    <string name="export_workouts">Speichern in Textdatei</string>
+    <string name="export_workouts_title">Export Workouts</string>
+    <string name="import_workouts">Import aus Textdatei</string>
+    <string name="import_workouts_dialog">Import Workouts</string>
+    <string name="your_name">Deinen Name</string>
+    <string name="your_height_cm">Deine Größe (cm)</string>
+    <string name="your_weight_kg">Dein Gewicht (kg)</string>
+    <string name="average_power">Mittlere Leistung (W)</string>
+    <string name="export_text">Alle Workouts werden in eine Textdatei (CSV) exportiert.
+        Die Datei wird in dem Verzeichnis %1$s/ des internen Speichers gespeichert.</string>
+    <string name="import_text">Eine List von Workouts wird importiert aus einer Textdatei (CSV).
+        Die Datei sollte sich in dem Verzeichnis %1$s/ des internen Speichers befinden.
+        Sie sollte von derselben App gespeichert worden sein, um das richtige Format zu haben.
+        Ein anderes Format könnte einen Absturz der App verursachen. </string>
+    <string name="helptext">Mit dieser App kannst Du Dein Training und Deine sportlichen Aktivitäten im Blick haben.
+Die Daten werden nur lokal auf Deinem Handy gespeichert und nicht auf einem Server hochgeladen. Keine Werbung.\n\n
+Am Anfang musst Du Deinen Namen, Deine Größe und Dein Gewicht eingeben. Danach kannst Du Workouts/Aktivitäten eingeben (Schaltfläche "+").
+Bis jetzt gibt es die Wahl zwischen fünf Arten von Workouts/Aktivitäten.
+        Bei jedem neuen Workout musst Du zuerst die Art der Aktivität aussuchen (Jogging/Walking, Ergometer, Gym, Fahrrad, Schwimmen, Weitere).
+Danach werden die Details des Workouts eingegeben (Dauer, Entfernung, Intensität…). Die App berechnet die verbrannten Kalorien (Kilokalorien, kcal).
+Diese Berechnung beruht auf den eingegebenen Daten, Deinem Gewicht und Deiner Größe.\n\n
+- Jogging/Walking: du kannst dieses Workout auch für Wanderungen, usw. verwenden. Gib einfach die Dauer, die Entfernung
+und die Höhenmeter ein.\n
+- Ergometer: du musst entweder die Leistung (Watt) oder die verbrannten Kilojoules (kJ), die von Deinem Ergometer angezeigt werden, eingeben.
+Wenn Dein Hometrainer diese nicht anzeigt, musst Du die Leistung selber abschätzen (Als Hilfe: 15 km/h auf einer flachen Ebene mit einem Stadtfahrrad
+entsprechen ca. 70 Watt. 30 km/h auf demselben Fahrrad entsprechen ca. 250 Watt).\n
+- Gym: bei diesem Workoutstyp musst Du die Intensität selber bestimmen. Daraus ergibt sich die Anzahl Kalorien, die pro Minute verbrannt werden.
+Relax: Entspannung/Stretching. Niedrig: Workout mit einer niedrigen Intensität. Mittel: Muskeltraining mit kurzen Pausen.
+Cardio: Cardiotraining ohne oder mit sehr kurzen Pausen. Extrem: sehr intensives Cardiotraining.\n
+ - Fahrrad: es wird davon ausgegangen, dass der Startpunkt gleich dem Endpunkt ist. Daher werden genau so viele
+Steigungen wie Abfahrten einberechnet. Kalorien werden als Funktion der Entfernung, der Geschwindigkeit und der Steigung berechnet.\n
+- Schwimmen: in diesem Fall wird hauptsächlich die Entfernung (und Dein Gewicht) einbezogen. Der Schwimmstil spielt hier eine untergeordnete Rolle
+(zumindest bei Freizeitschwimmern). \n
+                - Weitere: such Dir einfach die Aktivität, die am nächsten dran kommt, und gib die Dauer an.\n\n
+
+Wenn Du auf eine Wochen-, Monats- oder Jahresstatistik im Hauptbildschirm klickst, erreichst Du die entsprechende Statistikseite, bei der
+Du in graphischer Form Deine Fortschritte anschauen kannst.\n\n
+Auf der Einstellungsseite kannst Du die Sprache der App und Deine Workouts exportieren oder importieren.
+Damit kannst Du z.B. die Daten in ein anderes Handy kopieren. Die Textdatei befindet sich im App-Verzeichnis im Speicher Deines Handys.
+Sie wird gelöscht, wenn Du die App deinstallierst, außer Du hast sie vorher woanders hin kopiert. \n\n
+Fragen? Anregungen? Email an froschprog@gmail.com schicken.</string>
+    <string name="totaltime">Gesamtzeit</string>
+    <string name="other">Weitere</string>
+    <string name="other_int3">Tanzen\nFußball</string>
+    <string name="other_int4">Holz\nhacken\nRugby</string>
+    <string name="other_int2">Garten\nschwer\nTennis</string>
+    <string name="other_int1">Streichen\nGarten\nGolf</string>
+    <string name="other_int0">Putzen\nSpülen</string>
+    <string name="average_speed">Mittlere Geschw. (km/h)</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--activity_main-->
+    <string name="title">Bonjour %1$s</string>
+    <string name="title2">Trainings récents</string>
+    <string name="notask">Pas de training sauvegardé</string>
+    <string name="app_presentation">Version : %1$s \n\n Date de publication :\n02–2022\n\n© 2021 FroschproG</string>
+    <string name="choose_language">Changer</string>
+    <string name="Present_Lang">Langue actuelle : %1$s</string>
+    <string name="select_an_icon">Quel sport ?</string>
+    <string name="enter_event">Entrer</string>
+    <string name="notifications">Notifications</string>
+    <string name="archive_trainings">Tous les trainings</string>
+    <string name="back">Retour</string>
+    <string name="deleteevent">Effacer</string>
+    <string name="help">Aide</string>
+    <string name="le">le\u0020</string>
+    <string name="power">Puissance : \u0020</string>
+    <string name="minutes">\u0020 minutes</string>
+    <string name="distance">Distance : \u0020</string>
+    <string name="tdp_ch_desc">Rappel</string>
+    <string name="new_workout">Nouveau training</string>
+    <string name="wrongdate">Vérifie le format de la date : jour-mois-année</string>
+    <string name="date">Date</string>
+    <string name="duration">Durée (min)</string>
+    <string name="distanceHint">Distance (km)</string>
+    <string name="or">ou</string>
+    <string name="stattitle">Tes statistiques</string>
+    <string name="stat_title">%1$s jours commençant le %2$s</string>
+    <string name="weekof">Semaine du lundi  %1$s</string>
+    <string name="level">,  niveau :\u0020</string>
+    <string name="user_title">%1$s, %2$d cm, %3$d kg\u0020\u0020\u0020 Changer ?</string>
+    <string name="medium">Moyen</string>
+    <string name="lowint">Bas</string>
+    <string name="extrem">Extrême</string>
+    <string name="flat">Plat</string>
+    <string name="fastflat">\u00B1 Plat</string>
+    <string name="thiswk">Cette semaine</string>
+    <string name="thismonth">Ce mois</string>
+    <string name="thisyear">Cette année</string>
+    <string name="running">Jogging/Marche</string>
+    <string name="ergo">Vélo d\'appart.</string>
+    <string name="bike">Vélo</string>
+    <string name="swim">Natation</string>
+    <string name="weeklystat">Stats hébdomadaires</string>
+    <string name="monthlystat">Stats mensuelles</string>
+    <string name="yearlystat">Stats annuelles</string>
+    <string name="lastdays">Derniers %1$d jours</string>
+    <string name="perwk">/semaine</string>
+    <string name="permonth">/mois</string>
+    <string name="peryear">/an</string>
+    <string name="graphchoicetitle">Données à afficher ?</string>
+    <string name="export_workouts">Exporter fichier texte</string>
+    <string name="export_workouts_title">Exporter trainings</string>
+    <string name="import_workouts">Importer depuis fichier</string>
+    <string name="import_workouts_dialog">Importer trainings</string>
+    <string name="your_name">Ton nom</string>
+    <string name="your_height_cm">Ta taille (cm)</string>
+    <string name="your_weight_kg">Ton poids (kg)</string>
+    <string name="average_power">Puissance moyenne (W)</string>
+    <string name="export_text">La liste des trainings va être exportée dans un fichier texte (CSV).
+        Le fichier sera sauvegardé dans le dossier %1$s/ de la mémoire interne de ton téléphone.</string>
+    <string name="import_text">Une liste des trainings va être importée depuis un fichier texte (CSV)
+        Le fichier doit être dans le dossier %1$s/ de la mémoire interne de ton téléphone
+        et avoir été sauvegardé par la même appli pour avoir le bon format.
+        Utiliser un autre format peut engendrer un crash de l\'appli.</string>
+    <string name="helptext">Cette application simple permet de suivre tes activités sportives.
+     Toutes les données sont sauvegardées sur ton téléphone
+    et aucune information n\'est envoyée à quelque serveur qu\'il soit. Aucune publicité. \n\n
+    Il te faut tout d\'abord entrer ton nom, ta taille et ton poids. Ensuite tu rentres tes trainings (Bouton "+").
+        L\'appli est pour l\'instant limitée à 6 types d\'activités : jogging, vélo d\'appartement, gymnastique, vélo, natation, autre.
+        Ensuite to dois rentrer les détails qui dépendent du type choisi. L\'application calcule le nombre de
+        kilocalories ou calories alimentaires utilisées (kcal).
+    Cette estimation se base sur les données rentrées ainsi que ton poids et ta taille.\n\n
+    - Jogging : tu peux entrer également des activités telles que la randonnée. Prends soin de rentrer aussi
+        précisement que possible la distance, la durée et un éventuel dénivellé. Utilise pour cela les icônes.\n
+        - Vélo d\'appartement : tu dois entrer soit la puissance (en Watts), soit le nombre de kilojoules (kj)
+        affichés par ton vélo. Si ton vélo ne donne pas ces indications, il te faudra estimer la puissance toi-même.
+        (Comme indication : 15 km/h sur le plat correspondent environ à 70 Watts avec un vélo de ville. A 30 km/h sur le même vélo
+        tu arrives à environ 250 Watts).\n
+        - Gymnastique : ici c\'est toi qui détermine le type de séance et donc le nombre de calories par minutes.
+        Relax correspond à des étirements, assouplissements. Bas : séance exercices avec pauses.
+        Moyen est pour une séance de travail sur les muscles avec des petites pauses entre les exercices.
+        Cardio : endurance sans pause ou pauses très courtes. Extrême : Séance cardio très intense.\n
+        - Vélo : l\'appli part du principe que tu arrives à l\'endroit d\'où tu es parti. Donc, autant de montée que de descente.
+        Le calcul des calories prend en compte la distance, la vitesse et les montées.\n
+        - Natation : ici, c\'est principalement la distance (et ton poids) qui détermine les calories. Le type de nage n\'a pas
+        une influence importante sur la dépense d\'énergie (pour des nageurs loisirs !).\n
+                - Autre : choisis juste l\'intensité qui correspond le mieux à ton activité et entre la durée.\n\n
+
+        Si tu cliques sur une statistique semaine, mois ou année dans la page d\'accueil tu arriveras
+        sur la page statistique hédbomadaire, mensuelle ou annuelle. Sur cette page tu pourras comparer
+        tes efforts durant les différentes semaines, mois ou années sous forme graphique.\n\n
+        La page de réglage te permet de chosir la langue et d\'exporter ou d\'importer des trainings
+        vers ou à partir d\'un fichier texte. Cela permet de transférer tes données d\'un téléphone à
+        un autre par exemple. Le fichier sauvegardé sera effacé si tu desinstalles l\'appli ou
+        si tu effaces les données de l\'appli, à moins que tu ne l\'aies déplacé.
+        Tu peux accéder au fichier texte sauvegardé dans le répertoire de l\'appli.\n\n
+        N\'hésite pas à me contacter si tu as des questions/suggestions.\n
+    </string>
+    <string name="totaltime">Temps total</string>
+    <string name="other">Autre</string>
+    <string name="other_int3">Danse\nFootball</string>
+    <string name="other_int4">Couper\ndu bois\nRugby</string>
+    <string name="other_int2">Jardin\ndur\nTennis</string>
+    <string name="other_int1">Peindre\nJardin\nGolf</string>
+    <string name="other_int0">Ménage\nVaisselle</string>
+    <string name="average_speed">Vitesse moyenne (km/h)</string>
+</resources>

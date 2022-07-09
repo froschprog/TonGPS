@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name" translatable="false">TonGPS</string>
+
+    <!--activity_main-->
+    <string name="title">Hello %1$s</string>
+    <string name="title2">Your last workouts</string>
+    <string name="notask">No workout saved</string>
+    <!--mainmore-->
+    <string name="app_presentation">Version: %1$s \n\n Issue Date:\n02–2022\n\n© 2022 FroschproG/Oki</string>
+    <string name="choose_language">Change</string>
+    <string name="Present_Lang">Current language: %1$s</string>
+    <string name="select_an_icon">Which sport?</string>
+    <string name="enter_event">Enter</string>
+    <string name="notifications">Notifications</string>
+    <string name="mail" translatable="false"><a href="mailto:froschprog@gmail.com?Subject=ToDoPlus" style="color: #FFFFFF">froschprog@gmail.com</a></string>
+    <string name="archive_trainings">All workouts</string>
+    <string name="back">Back</string>
+    <string name="deleteevent">Delete</string>
+    <string name="help">Help</string>
+    <string name="kcal" translatable="false">\u0020 kcal</string>
+    <string name="kcalnospace" translatable="false">kcal</string>
+
+    <string name="km" translatable="false">\u0020 km</string>
+    <string name="kmh" translatable="false">\u0020 km/h</string>
+    <string name="min" translatable="false">\u0020 min \u0020</string>
+    <string name="seckm" translatable="false">\u0020 sec / km</string>
+    <string name="minkm" translatable="false">\u0020 min/km</string>
+    <string name="le">on\u0020</string>
+    <string name="power">Power: \u0020</string>
+    <string name="watts" translatable="false">\u0020 Watts</string>
+    <string name="minutes">\u0020 minutes</string>
+    <string name="distance">Distance: \\u0020</string>
+    <string name="tdp_ch_id" translatable="false">TonTraining_channel</string>
+    <string name="tdp_ch_name" translatable="false">TonTraining</string>
+    <string name="tdp_ch_desc">Reminder</string>
+    <string name="new_workout">New workout</string>
+    <string name="wrongdate">Check the date format: day-month-year</string>
+    <string name="date">Date</string>
+    <string name="duration">Duration (min)</string>
+    <string name="powerHint" translatable="false">Watts</string>
+    <string name="kjHint" translatable="false">kJ</string>
+
+    <string name="distanceHint">Distance (km)</string>
+    <string name="or">or</string>
+    <string name="stattitle">Your statistics</string>
+    <string name="stat_title">%1$s days starting on %2$s</string>
+    <string name="weekof">Week of Monday %1$s</string>
+
+    <string name="total" translatable="false">Total</string>
+    <string name="totallc" translatable="false">total</string>
+    <string name="level">, level:\u0020</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="user_title">%1$s, %2$d cm, %3$d kg\u0020\u0020\u0020 Change?"</string>
+    <string name="relax" translatable="false">Relax</string>
+    <string name="lowint">Low</string>
+    <string name="medium">Medium</string>
+    <string name="cardio" translatable="false">Cardio</string>
+    <string name="extrem">Extreme</string>
+    <string name="flat">Flat</string>
+    <string name="fastflat">\u00B1 flat</string>
+    <string name="thiswk">This week</string>
+    <string name="thismonth">This month</string>
+    <string name="thisyear">This year</string>
+    <string name="running">Running/Walking</string>
+    <string name="ergo">Exercise bike</string>
+    <string name="gym" translatable="false">Gym</string>
+    <string name="bike">Bike</string>
+    <string name="swim">Swimming</string>
+    <string name="weeklystat">Weekly stats</string>
+    <string name="monthlystat">Monthly stats</string>
+    <string name="yearlystat">Yearly stats</string>
+    <string name="lastdays">Last %1$d days</string>
+    <string name="perwk">/week</string>
+    <string name="permonth">/month</string>
+    <string name="peryear">/year</string>
+    <string name="graphchoicetitle">Data to be displayed?</string>
+    <string name="export_workouts">Export workouts in text file</string>
+    <string name="export_text">The list of workouts will be exported in a comma separated file.
+        The file will be saved in the directory %1$s/ in the internal storage of your phone.</string>
+    <string name="import_text">A list of workouts will be imported from a comma separated file.
+        The file should be in the directory %1$s/ in the internal storage of your phone
+        and have been saved by the same app to have to proper format.
+        Using another format may result in an app crash</string>
+    <string name="export_workouts_title">Export workouts</string>
+    <string name="import_workouts">Import workouts from file</string>
+    <string name="import_workouts_dialog">Import workouts</string>
+    <string name="your_name">Your name</string>
+    <string name="your_height_cm">Your Height (cm)</string>
+    <string name="your_weight_kg">Your Weight (kg)</string>
+    <string name="average_power">average power (W)</string>
+    <string name="average_speed">average speed (km/h)</string>
+
+    <!--activity_addgps-->
+    <string name="savegps">Save your track</string>
+
+    <string name="helptext">This app allows you to keep track of your training or activities.
+        All data are saved locally. No information is
+        sent to any server. No publicity/advertisement at all.\n\n
+    You should start by entering your name, height and weight. After that you can enter your workouts
+    (button "+"). For each new workout you should first choose the type of workout/activity. Up to now the choice
+    is limited to 6 types of workouts/activities: Running/Walking,
+    Exercise bike, Gym, Bike, Swimming, Other. After that you can enter the details which depend on the type of workout.
+    The app calculates the number of kilocalories (kcal) you spent. This estimation is based on the
+    data you entered, you weight and your height.\n\n
+    - Running/Walking: you can use this workout for hicking, jogging and so on. Take care to enter the
+    distance and the possible elevation gain. This can be done by clicking on the icons.\n
+    - Exercise bike: you should enter either the power (Watts) or the number of kilojoules (kj) displayed on your bike.
+    If your bike does not give this information, you\'ll have to estimate the power (As an indication: 15 km/h corresponds
+        to approximately 70 Watts on a usual city bike. 30 km/h on the same bike corresponds to 250 Watts).\n
+    - Gym: there you choose the level of workout by yourself. This defines the number of calories per minutes. Relax corresponds to stretching.
+    Low: low intensity workout. Medium: muscles training with short breaks between the exercises. Cardio: cardio training
+    without or with very short breaks. Extreme: very intense cardio training.\n
+    - Bike: the app considers that your start and finish points are the same. This means as much uphill as downhill.
+    Calories are calculated using the distance, the average speed and the climbs.\n
+    - Swimming: hier, it\'s mainly the distance which determines the calories. The style (crawl, breast…) does
+        not play a big role (for leisure trainings).\n
+        - Other: just choose the most appropriate intensity value corresponding to your activity and enter the duration.\n\n
+    If you click on a weekly, monthly, yearly statistic in the main screen you reach the weekly,
+        monthly or yearly statistics page, where you can compare your achievements of the last weeks, months or years
+    in a graphic representation.\n\n
+    The setting page allows you to choose the language of the app and to export or import workouts to/from a text file.
+    This allows you to transfer you data to an other phone. You can access the file in the folder of the app in the internal
+    memory of your phone.The file is deleted if you uninstall the app, unless it was copied before to another location. \n\n
+    Don\'t hesitate to contact me if you have a question or suggestion.</string>
+    <string name="totaltime">Total time</string>
+    <string name="h100m" translatable="false">≈100m</string>
+    <string name="h300m" translatable="false">≈300m</string>
+    <string name="h600m" translatable="false">≈600m</string>
+    <string name="h900m" translatable="false">≈900m</string>
+    <string name="other">Other</string>
+    <string name="other_int3">Dancing\nFootball</string>
+    <string name="other_int4">Wood\nchopping\Rugby</string>
+    <string name="other_int2">Garden\nhard\nTennis</string>
+    <string name="other_int1">Painting\nGarden\nGolf</string>
+    <string name="other_int0">Cleaning\nWashing</string>
+
+
+    <string-array name="Languages">
+        <item>Français</item>
+        <item>Deutsch</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="Languages_codes">
+        <item>fr</item>
+        <item>de</item>
+        <item>en</item>
+    </string-array>
+
+</resources>

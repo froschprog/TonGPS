@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TonTraining" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/design_default_color_secondary</item>
+        <item name="colorSecondaryVariant">@color/design_default_color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/colorPrimaryDark</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorHint">@color/plus</item>
+
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <style name="SwitchTheme" >
+        <item name="colorControlActivated">@color/ontime</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="colorAccent">@color/texte</item>
+        <item name="android:textColorPrimary">@color/texte</item>
+        <item name="android:textColorAlertDialogListItem">@color/texte</item>
+    </style>
+
+
+    <style name="ButtonThemeBlue" parent="ThemeOverlay.AppCompat">
+        <item name="colorPrimary">@color/ontime</item>
+    </style>
+
+    <style name="ButtonThemeRed" parent="ThemeOverlay.AppCompat">
+        <item name="colorPrimary">@color/red</item>
+    </style>
+
+    <style name="ButtonThemeOrange" parent="ThemeOverlay.AppCompat">
+        <item name="colorPrimary">@color/orange</item>
+    </style>
+</resources>
