@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary">
 
+    <!-- Background image -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -17,7 +18,7 @@
         app:srcCompat="@drawable/background_1"/>
 
 
-
+    <!-- Header with back arrow and title -->
     <RelativeLayout
         android:id="@+id/relativeLayoutGps"
         android:layout_width="0dp"
@@ -54,13 +55,6 @@
     </RelativeLayout>
 
 
-
-
-
-
-
-
-
     <!-- GPS -->
 
     <TextView
@@ -69,11 +63,65 @@
         android:layout_height="wrap_content"
         android:textColor="@color/texte"
         android:textSize="20sp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="120dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textViewLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/texte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAddGpsText" />
+
+    <TextView
+        android:id="@+id/textViewLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/texte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLongitude" />
+
+    <TextView
+        android:id="@+id/textViewPrecision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/texte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLatitude" />
+
+    <TextView
+        android:id="@+id/textViewAltitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/texte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPrecision" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/texte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAltitude" />
 
     <!-- Les buttons en bas de la page -->
     <LinearLayout
@@ -94,7 +142,7 @@
             android:background="@drawable/btn_rectangle_arrondi"
             android:foreground="?attr/selectableItemBackground"
             android:theme="@style/ButtonThemeOrange"
-            app:tint="@color/texte"
+            android:textColor="@color/texte"
             android:textSize="12sp"
             android:layout_weight="1"
             android:text="Start"/>
@@ -112,7 +160,7 @@
             android:foreground="?attr/selectableItemBackground"
             android:theme="@style/ButtonThemeOrange"
             android:layout_weight="1"
-            app:tint="@color/texte"
+            android:textColor="@color/texte"
             android:textSize="12sp"
 
             android:text="Stop"/>
@@ -130,7 +178,7 @@
             android:foreground="?attr/selectableItemBackground"
             android:theme="@style/ButtonThemeOrange"
             android:layout_weight="1"
-            app:tint="@color/texte"
+            android:textColor="@color/texte"
             android:textSize="12sp"
 
             android:text="Pause"
